@@ -25,7 +25,9 @@ $ source venv/bin/activate
 Steps:
 
 git clone https://github.com/WhiteSage88/Chemical-Labeling
+
 pip install -r requirements.txt
+
 python application.py
 
 After this, the program will run in a browswer under localhost:5000
