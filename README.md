@@ -11,7 +11,7 @@ Also uses FireFox for Crawling
 In commnand window, cd to the directory you wish to place the program's folder.
 
 
-###
+
 It is highly recommended by the author to use a virtual enviroment to avoid dependancy conflicts/updates.
 
 example:
@@ -19,7 +19,7 @@ example:
 $ virtualenv venv
 $ source venv/bin/activate
 
-###
+
 
 
 Steps:
