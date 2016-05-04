@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+<!DOCTYPE html>
+  <head>
+    <title>{{title}}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <style type="text/css">
+      .container {
+        margin: 0px;
+        padding: 0px;
+      }
+      h2 {color: red;}
+    </style>
+  </head>
+{% block content %}
+  <body>
+    <font size="3" color="green">
+    <b>Welcome to the Stockton University Chemical Labeling Program</b>
+    <br><br>The following pages you will input what chemicals you are going to store in a container and their relative percentages.
+    <br> Please make sure to use correctly spelled chemicals or use CAS numbers for increased accuracy.
+    </font>
+    <br><br>
+    <form method="POST" action="/">
+    <div>{{ form.amount.label }}: {{ form.amount(placeholder = "Number of Chemicals", class="css_class") }}
+    </div>
+  </body>
+</html>
+{% endblock %}

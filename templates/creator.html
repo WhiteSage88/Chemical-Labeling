@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+{% block content %}
+<head>
+ <link rel=stylesheet type=text/css ">
+</head>
+  <body>
+  <form method="POST" action=" ">
+    
+   
+   <font size="3" color="green">
+    All Fields are REQUIRED:
+    </font>
+    <br>{{ chemform.labels.label }}: {{ chemform.labels(placeholder = "Number of Labels", class="css_class") }}
+    <h10>{{ nameform.name.label }}: {{ nameform.name(placeholder = "Enter Preparer Name", class="css_class") }}
+    {% for x in range(number_of_chemicals) %}
+    <div>{{ chemform.chemical.label }}: {{ chemform.chemical(placeholder = "Chemical Name or CAS", class="css_class") }}
+         {{ chemform.percent.label }}: {{chemform.percent(class="css_class") }}
+    </div>
+    {% endfor %}
+    <input type=submit name="Generate Label">   
+  </body>
+</form>
+
+
+{% endblock %}
