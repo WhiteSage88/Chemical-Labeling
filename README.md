@@ -10,13 +10,12 @@ Also uses FireFox for Crawling
 
 In command window, cd to the directory you wish to place the program's folder.
 
-
-
 It is highly recommended by the author to use a virtual enviroment to avoid dependancy conflicts/updates.
 
 example:
 
 $ virtualenv venv
+
 $ source venv/bin/activate
 ###
 
