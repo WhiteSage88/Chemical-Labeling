@@ -8,7 +8,7 @@ Please follow these steps for installation on Linux.
 THIS USES python2.7
 Also uses FireFox for Crawling
 
-In commnand window, cd to the directory you wish to place the program's folder.
+In command window, cd to the directory you wish to place the program's folder.
 
 
 
